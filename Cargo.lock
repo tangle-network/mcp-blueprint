@@ -2671,9 +2671,9 @@ dependencies = [
 
 [[package]]
 name = "blueprint-context-derive"
-version = "0.1.0-alpha.4"
+version = "0.1.0-alpha.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7cacb13134b4b3fc55ffdde33a32c9d52d54a8ba88339554fc15fd2c55936e0e"
+checksum = "62c1f7a57bc1c68649c69a5987d744fe2299edd8d325047578370e982d943cc3"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2896,9 +2896,9 @@ dependencies = [
 
 [[package]]
 name = "blueprint-eigenlayer-extra"
-version = "0.1.0-alpha.4"
+version = "0.1.0-alpha.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "256a488f7922cef454bb6a2edc6ace0a89a6eda9f76eb02b0ff1892716a2718d"
+checksum = "d42543fbd9e44cfb511d41ecfb7583aa74be99bd1692faaa0a1cece2e486497d"
 dependencies = [
  "alloy-contract",
  "alloy-network",
@@ -3160,9 +3160,9 @@ dependencies = [
 
 [[package]]
 name = "blueprint-sdk"
-version = "0.1.0-alpha.9"
+version = "0.1.0-alpha.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d6ff6fd90ba4077e0306bf92c6c5532fbae73daa1a43705ccddb7fe92a044fad"
+checksum = "97d129545938d783910c8691f61aa16b4a229c10425c15fd3d1e50314a148066"
 dependencies = [
  "blueprint-build-utils",
  "blueprint-chain-setup",
