@@ -1,0 +1,25 @@
+[workspace]
+resolver = "3"
+members = ["src", "cli"]
+
+[workspace.package]
+version = "0.1.0"
+description = "Convert any MCP server to a blueprint in seconds"
+edition = "2024"
+authors = ["Shady Khalifa <dev+github@shadykhalifa.me>"]
+license = "MIT OR Apache-2.0"
+homepage = "https://tangle.network"
+repository = "https://github.com/tangle-network/mcp-blueprint"
+readme = "README.md"
+categories = ["cryptography", "cryptography::cryptocurrencies"]
+keywords = ["tangle", "blueprint", "avs"]
+
+[workspace.dependencies]
+mcp-blueprint = { path = "src" }
+
+blueprint-sdk = { version = "0.1.0-alpha.9", default-features = false }
+tokio = { version = "1", default-features = false }
+color-eyre = "0.6"
+tower = { version = "0.5", default-features = false }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing = "0.1"
