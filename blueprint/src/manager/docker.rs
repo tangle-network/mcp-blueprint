@@ -45,9 +45,7 @@ impl DockerRunner {
             "linux" => self.install_docker_linux().await,
             _ => Err(Error::Io(std::io::Error::new(
                 std::io::ErrorKind::Unsupported,
-                format!(
-                    "Docker installation only supported on Linux, detected platform: {os}"
-                ),
+                format!("Docker installation only supported on Linux, detected platform: {os}"),
             ))),
         }
     }
@@ -370,10 +368,7 @@ impl McpRunner for DockerRunner {
         };
 
         // Convert environment variables to Vec<String> format
-        let env: Vec<String> = env_vars
-            .iter()
-            .map(|(k, v)| format!("{k}={v}"))
-            .collect();
+        let env: Vec<String> = env_vars.iter().map(|(k, v)| format!("{k}={v}")).collect();
 
         // Create container configuration with port bindings
         let config = Config {
