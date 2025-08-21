@@ -3,7 +3,7 @@ resolver = "3"
 members = ["blueprint", "cli"]
 
 [workspace.package]
-version = "0.2.0-prerelease.3"
+version = "0.3.0-prerelease.1"
 description = "Convert any MCP server to a blueprint in seconds"
 edition = "2024"
 authors = ["Shady Khalifa <dev+github@shadykhalifa.me>"]
